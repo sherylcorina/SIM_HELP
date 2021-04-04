@@ -228,7 +228,7 @@ BVI VIN 0 V= 393.75*time + 0 - 0.000385875
 
 
 Vdd 1 0 dc 1.8
-Vd_vref vref 0 1.8
+Vd_vref vref 0 dc 1.8
 
 .control
 
@@ -238,7 +238,7 @@ set num_threads=8
 
 run
 
-tran 0.001u 662u 0us
+tran 0.1u 662u 0us
 let ideal = V(V_SAM)/0.001757
 let lin-tstart =1.57us
 let lin-tstop=662us
