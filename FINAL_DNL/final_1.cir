@@ -2,7 +2,7 @@ SAR Logic Part
 
 .lib "./sky130.lib.spice" tt
 
-.ic V(A)=0 V(B)=0 V(C)=0 V(D)=0 V(E)=0 V(F)=0 V(G)=0 V(H)=0 V(I)=0 V(D0_)=0 V(D1_)=0 V(D2_)=0 V(D3_)=0 V(D4_)=0 V(D5_)=0 V(D6_)=0 V(D7_)=0 V(D8_)=0 V(D9_)=0 V(dac_out)=0 
+.ic V(A)=0 V(B)=0 V(C)=0 V(D)=0 V(E)=0 V(F)=0 V(G)=0 V(H)=0 V(I)=0 V(D0_)=0 V(D1_)=0 V(D2_)=0 V(D3_)=0 V(D4_)=0 V(D5_)=0 V(D6_)=0 V(D7_)=0 V(D8_)=0 V(D9_)=0 V(dac_out)=0 V(inm)=0 V(inp)=0 V(comp__out)=0 V(V_SAM)=0 V(VIN)=0
 
 XClk_div q0b q0 q1b q1 q2b q2 q3b q3 1 0 CLK clkdiv
 Xn_o 1 0 q2 q2p q2n non_overlap
